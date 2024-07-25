@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          label,input,button{
+            display: block;
+            margin: 10px;
+          }
+    </style>
+</head>
+<body>
+     <!-- dear ai please genrate a form, with name, email, password, confirm password and submit btn -->
+        <form >
+          <!-- form onSubmit="validate()" -->
+            <div>
+              <input type="text" id="name" name="name"
+              placeholder="Enter your name"
+              >
+              <p class="name-err"></p>
+            </div>
+          
+            <input type="email" id="email" name="email"
+            placeholder="Enter your email"
+            >
+           
+            <input type="password" id="password" name="password"
+            placeholder="Enter your password"
+            >
+           
+            <input type="password" id="cpassword" name="cpassword"
+            placeholder="Enter your confirm password"
+            >
+
+            <button type="submit"> Submit </button>
+        </form>
+
+        <div class="info">
+
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
